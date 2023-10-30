@@ -26,7 +26,7 @@ server.listen(8080, () => {
 });
 
 const MONGO_URL =
-  "mongodb+srv://timothy:3I4RBU85t12OKhGt@cluster0.thgacpv.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://timothy:3I4RBU85t12OKhGt@cluster0.thgacpv.mongodb.net/?retryWrites=true&w=majority";  // this cluster has been deleted and was for study purposes only
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
